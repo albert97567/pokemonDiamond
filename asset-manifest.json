@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/albert97567/pokemonDiamond.git/static/css/main.92f038fd.css",
-    "main.js": "/albert97567/pokemonDiamond.git/static/js/main.7a053460.js",
-    "static/js/787.ab378faf.chunk.js": "/albert97567/pokemonDiamond.git/static/js/787.ab378faf.chunk.js",
-    "static/media/pokemon-dp-pro.ttf": "/albert97567/pokemonDiamond.git/static/media/pokemon-dp-pro.e0d672a476b048656eea.ttf",
-    "index.html": "/albert97567/pokemonDiamond.git/index.html",
-    "main.92f038fd.css.map": "/albert97567/pokemonDiamond.git/static/css/main.92f038fd.css.map",
-    "main.7a053460.js.map": "/albert97567/pokemonDiamond.git/static/js/main.7a053460.js.map",
-    "787.ab378faf.chunk.js.map": "/albert97567/pokemonDiamond.git/static/js/787.ab378faf.chunk.js.map"
+    "main.css": "./static/css/main.9991653b.css",
+    "main.js": "./static/js/main.bfaedb11.js",
+    "static/js/787.ab378faf.chunk.js": "./static/js/787.ab378faf.chunk.js",
+    "static/media/pokemon-dp-pro.ttf": "./static/media/pokemon-dp-pro.e0d672a476b048656eea.ttf",
+    "index.html": "./index.html",
+    "main.9991653b.css.map": "./static/css/main.9991653b.css.map",
+    "main.bfaedb11.js.map": "./static/js/main.bfaedb11.js.map",
+    "787.ab378faf.chunk.js.map": "./static/js/787.ab378faf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92f038fd.css",
-    "static/js/main.7a053460.js"
+    "static/css/main.9991653b.css",
+    "static/js/main.bfaedb11.js"
   ]
 }
