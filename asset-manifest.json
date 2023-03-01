@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.dc511c24.css",
-    "main.js": "/static/js/main.66749171.js",
+    "main.js": "/static/js/main.ed22c89a.js",
     "static/js/787.ab378faf.chunk.js": "/static/js/787.ab378faf.chunk.js",
     "static/media/pokemon-dp-pro.ttf": "/static/media/pokemon-dp-pro.e0d672a476b048656eea.ttf",
     "index.html": "/index.html",
     "main.dc511c24.css.map": "/static/css/main.dc511c24.css.map",
-    "main.66749171.js.map": "/static/js/main.66749171.js.map",
+    "main.ed22c89a.js.map": "/static/js/main.ed22c89a.js.map",
     "787.ab378faf.chunk.js.map": "/static/js/787.ab378faf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc511c24.css",
-    "static/js/main.66749171.js"
+    "static/js/main.ed22c89a.js"
   ]
 }
