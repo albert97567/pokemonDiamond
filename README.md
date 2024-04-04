@@ -19,3 +19,7 @@ $ git clone https://github.com/albert97567/pokemonDiamond
 $ cd pokemonDiamond
 $ npm install
 $ npm start
+
+```
+## Extra Notes
+This was the first React project that I've ever done. The only prior knowledge I had was a very introductory class to HTML. This is one of the projects that I have spend the most time, mostly in learning how to code in HTML/CSS as well as Javascript. I will continue working on the game so that the code is much easier to read, instead of all of it being on one .jss file. 
