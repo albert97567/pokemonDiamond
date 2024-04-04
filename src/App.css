@@ -1,0 +1,298 @@
+.App {
+  text-align: center;
+  font-family: 'PokemonFont';
+}
+
+.stats-container {
+  position: absolute;
+  margin-right: 20px;
+}
+
+.left-image, .right-image {
+  position: absolute;
+  top: 0;
+  width: 320px;
+  height: 100px;
+}
+
+
+.left-image {
+  margin-top: 250px;
+  left: 0;
+}
+
+.right-image {
+  margin-left: 10px;
+  margin-bottom: 100px;
+  right: 0;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/84/20/f2/8420f223606744a2b949008154f264e5.gif);
+  background-position-y: -50px;
+}
+
+h1 img {
+  width: 500px;
+  height: 200px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #333f57;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@font-face {
+  font-family: 'PokemonFont';
+  src: url('../public/pokemon-dp-pro.ttf') format('truetype');
+}
+
+.PokemonFont {
+  color: white;
+  outline: black;
+}
+
+.selected-button{
+  cursor: not-allowed !important;
+  background-color: rgb(71, 82, 82) !important;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button{
+  font-size: 36px;
+  font-family: 'PokemonFont';
+  background-color: rgb(204, 198, 198);
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover{
+  background-color: gray;
+}
+
+button:active{
+  transform: translateY(5px);
+}
+
+.reset-button{
+  font-size: 36px;
+  font-family: 'PokemonFont';
+  background-color: rgb(238, 88, 88);
+  transition: transform 0.2s ease-in-out;
+}
+
+.reset-button:hover{
+  background-color: rgb(235, 36, 36);
+}
+
+.reset-button:active{
+  transform: translateY(5px);
+}
+
+.pokemon-button:hover {
+  transform: translateY(-5px);
+}
+
+
+.pokemon-button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-family: 'PokemonFont', sans-serif;
+  font-size: 24px;
+}
+
+
+
+.pokemon-image {
+  pointer-events: none;
+  max-width: 75%;
+  max-height: 75%;
+  cursor: not-allowed;
+}
+
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.button-type-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.loading-screen{
+  width: 800px;
+  height: 500px;
+  background-color: rgb(236, 236, 236);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  box-shadow: 0px 0px 20px black;
+  box-sizing: border-box;
+}
+
+.battle-screen {
+  width: 800px;
+  height: 500px;
+  background-image: url(https://i.imgur.com/lhu26US.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  box-shadow: 0px 0px 20px black;
+  box-sizing: border-box;
+}
+
+.health-screen .name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hp {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.hpBar {
+  width: 90%;
+  height: 10px;
+  border: 2px #ccc solid;
+}
+
+.hpSection {
+  display: inline-block;
+  height:10px;
+  font-size: 10pt;
+  vertical-align: top;
+  text-align: center;
+}
+
+.hpSection p {
+  margin: 0;
+  padding: 3px;
+}
+
+.hpDealt {
+  background-color: rgb(90, 90, 90);
+  transition: width 1s ease-in-out;
+}
+
+.hpLeft {
+  background-color: rgb(51, 209, 51);
+  transition: width 1s ease-in-out;
+}
+
+
+
+.hpComp {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.hpBarComp {
+  width: 90%;
+  height: 10px;
+  border: 2px #ccc solid;
+}
+
+.hpSectionComp {
+  display: inline-block;
+  height:10px;
+  font-size: 10pt;
+  vertical-align: top;
+  text-align: center;
+}
+
+.hpSectionComp p {
+  margin: 0;
+  padding: 3px;
+}
+
+.hpDealtComp {
+  background-color: rgb(90, 90, 90);
+  transition: width 1s ease-in-out;
+}
+
+.hpLeftComp {
+  background-color: rgb(51, 209, 51);
+  transition: width 1s ease-in-out;
+}
+
+@keyframes reveal-text {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.health-screen {
+  text-align: center;
+  width: 300px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
